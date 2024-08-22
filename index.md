@@ -1,8 +1,17 @@
 ---
 layout: base
-title: Student Home 
+title: CSA
 description: Home Page
 hide: true
 ---
 
-My journey starts here.
+## About Me
+- <p>CSA is lit</p>
+- <p>Junior :)</p>
+
+
+
+## Plans for CSA
+
+  - Learn new coding algorithms for different functions
+  - Be more consistent with commits
