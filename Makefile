@@ -61,7 +61,7 @@ server: stop convert
 	@@until [ -f $(LOG_FILE) ]; do sleep 1; done
 
 # Convert .ipynb files to Markdown with front matter
-#convert: $(MARKDOWN_FILES)
+convert: $(MARKDOWN_FILES)
 
 # Convert .ipynb files to Markdown with front matter, preserving directory structure
 $(DESTINATION_DIRECTORY)/%_IPYNB_2_.md: _notebooks/%.ipynb
