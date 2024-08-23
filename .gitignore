@@ -772,3 +772,7 @@ venv/lib/python3.11/site-packages/setuptools-68.1.2.dist-info/RECORD
 venv/lib/python3.11/site-packages/setuptools-68.1.2.dist-info/REQUESTED
 venv/lib/python3.11/site-packages/setuptools-68.1.2.dist-info/top_level.txt
 venv/lib/python3.11/site-packages/setuptools-68.1.2.dist-info/WHEEL
+.vscode/dryrun.log
+.vscode/targets.log
+.vscode/dryrun.log
+.vscode/targets.log

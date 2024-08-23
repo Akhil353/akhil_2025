@@ -15,3 +15,6 @@ hide: true
 
   - Learn new coding algorithms for different functions
   - Be more consistent with commits
+
+# Me
+![image](./images/IMG_7261.png)
