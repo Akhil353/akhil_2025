@@ -18,8 +18,8 @@ hide: true
 - <p>Class of 2026</p>
 
 <p>Select your preferred colors for the page header:</p>
-<input type="color" id="headerColorPicker1" name="headerColorPicker1" value="#00ff62">
-<input type="color" id="headerColorPicker2" name="headerColorPicker2" value="#2921ff">
+<input type="color" id="headerColorPicker1" name="headerColorPicker1" value="#2921ff">
+<input type="color" id="headerColorPicker2" name="headerColorPicker2" value="#00ff62">
 
 <script>
 
