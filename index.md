@@ -4,6 +4,13 @@ title: CSA
 description: Home Page
 hide: true
 ---
+<style>
+.page-header {
+  color: $header-heading-color;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: conic-gradient(from 215deg, $header-bg-color, $header-bg-color-secondary) !important;
+</style>
 ## About Me
 - <p>Name: Akhil Singamneni</p>
 - <p>CSA is lit</p>
