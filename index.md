@@ -9,12 +9,14 @@ hide: true
 - <p>Name: Akhil Singamneni</p>
 - <p>CSA is lit</p>
 - <p>Junior :)</p>
+- <p>Class of 2026</p>
 
 
 ## Plans for CSA
 
   - Learn new coding algorithms for different functions
   - Be more consistent with commits
+  - Learn Java
 
 # Me
 ![image](./images/IMG_7261.png)
