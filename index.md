@@ -4,13 +4,28 @@ title: CSA
 description: Home Page
 hide: true
 ---
-
 ## About Me
 - <p>Name: Akhil Singamneni</p>
 - <p>CSA is lit</p>
 - <p>Junior :)</p>
 - <p>Class of 2026</p>
 
+<p>Select your preferred colors for the page header:</p>
+<input type="color" id="headerColorPicker1" name="headerColorPicker1" value="#00ff62">
+<input type="color" id="headerColorPicker2" name="headerColorPicker2" value="#2921ff">
+
+<script>
+
+  function updateGradient() {
+    var color1 = document.getElementById('headerColorPicker1').value;
+    var color2 = document.getElementById('headerColorPicker2').value;
+    var gradient = `conic-gradient(from 215deg, ${color1}, ${color2})`;
+    document.querySelector('.page-header').style.setProperty('background-image', gradient);
+  }
+
+  document.getElementById('headerColorPicker1').addEventListener('input', updateGradient);
+  document.getElementById('headerColorPicker2').addEventListener('input', updateGradient);
+</script>
 
 ## Plans for CSA
 
