@@ -126,6 +126,7 @@ echo "Python Version: $(python --version)"
 echo "Bundle Version: $(bundle --version)"
 echo "Gem Version: $(gem --version)"
 echo "Brew Version: $(brew --version)"
+echo "Jupyter Version: $(jupyter --version)"
 
 cd /tmp
 
