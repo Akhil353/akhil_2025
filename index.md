@@ -222,6 +222,7 @@ comments: true
 <div id="notebooks" class="notebooks">
   <button onclick="window.location.href='{{site.baseurl}}/notebookhacks'" class="category">Notebook Hacks</button>
   <button onclick="window.location.href='{{site.baseurl}}/indexstruggles'" class="category">Ideation Struggles</button>
+  <button onclick="window.location.href='{{site.baseurl}}/htmlhacks'" class="category">HTML Hacks</button>
 
 </div>
 
