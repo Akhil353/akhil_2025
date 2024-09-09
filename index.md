@@ -60,7 +60,7 @@ hide: true
 - <p>Class of 2026</p>
 - Countries I've been to:
 <div class="image-gallery" id="image_gallery">
-    <!-- content will be added here by JavaScript -->
+
 </div>
 - [My Github](https://github.com/Akhil353)
 
@@ -87,7 +87,7 @@ hide: true
     {"flag": "a/a4/Flag_of_the_United_States.svg", "description": "United States of America"},
     {"flag": "4/41/Flag_of_India.svg", "description": "India"},
     {"flag": "c/c3/Flag_of_France.svg", "description": "France"},
-    {"flag": "5/5c/Flag_of_Greece.svg", "description": "Greece"},
+    {"flag": "0/03/Flag_of_Italy.svg", "description": "Italy"},
     {"flag": "f/f3/Flag_of_Switzerland.svg", "description": "Switzerland"},
     {"flag": "f/fc/Flag_of_Mexico.svg", "description": "Mexico"},
   ];
@@ -119,3 +119,72 @@ hide: true
 
 # A Youtube Video I liked
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qf7ws2DF-zk?si=ltS-quE6vk3uYMWn" frameborder="0" allowfullscreen></iframe>
+
+
+# Quiz Time
+
+<form id="quiz-form">
+  <label for="question1">Which country did I not visit?</label><br>
+  <input type="radio" id="france" name="question1" value="france">
+  <label for="france">France</label><br>
+  <input type="radio" id="italy" name="question1" value="italy">
+  <label for="italy">Italy</label><br>
+  <input type="radio" id="greece" name="question1" value="greece">
+  <label for="greece">Greece</label><br>
+  <br>
+
+  <label for="question2">What is my 4th period class?</label><br>
+  <input type="radio" id="physics" name="question2" value="physics">
+  <label for="physics">AP Physics Mechanics</label><br>
+  <input type="radio" id="calculus" name="question2" value="calculus">
+  <label for="calculus">AP Calculus BC</label><br>
+  <input type="radio" id="history" name="question2" value="history">
+  <label for="history">US History</label><br>
+  <br>
+
+  <label for="question3">When will I graduate?</label><br>
+  <input type="radio" id="2024" name="question3" value="2024">
+  <label for="2024">2024</label><br>
+  <input type="radio" id="2025" name="question3" value="2025">
+  <label for="2025">2025</label><br>
+  <input type="radio" id="2026" name="question3" value="2026">
+  <label for="2026">2026</label><br>
+  <br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<p id="result" style="font-weight: bold; color: green;"></p>
+
+<script>
+  document.getElementById("quiz-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    var correctAnswers = 0;
+
+    var question1Answer = document.querySelector('input[name="question1"]:checked');
+    if (question1Answer && question1Answer.value === "greece") {
+      correctAnswers++;
+    }
+
+    var question2Answer = document.querySelector('input[name="question2"]:checked');
+    if (question2Answer && question2Answer.value === "physics") {
+      correctAnswers++;
+    }
+
+    var question3Answer = document.querySelector('input[name="question3"]:checked');
+    if (question3Answer && question3Answer.value === "2026") {
+      correctAnswers++;
+    }
+
+    var resultMessage;
+    if (correctAnswers === 3) {
+      resultMessage = "Perfect! You got all 3 questions correct!";
+    } else {
+      resultMessage = "You got " + correctAnswers + " out of 3 correct.";
+    }
+
+    document.getElementById("result").textContent = resultMessage;
+    document.getElementById("result").style.color = correctAnswers === 3 ? "green" : "red";
+  });
+</script>
