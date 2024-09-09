@@ -3,6 +3,7 @@ layout: base
 title: CSA
 description: Home Page
 hide: true
+comments: true
 ---
 <style>
   .page-header {
@@ -44,12 +45,39 @@ hide: true
     object-fit: cover;
     border-radius: 5px;
   }
+
+  .notebooks {
+      display: none;
+      margin-top: 10px;
+    }
+  .notebooks a {
+      display: block;
+      margin: 10px 0;
+      text-decoration: none;
+      color: blue;
+    }
+  .category {
+        border: 1px solid #5f73b8;
+        background: #424549;
+        color: white;
+        width: 270px;
+        padding: 15px 20px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        transition-duration: 0.1s;
+        cursor: pointer;
+        font-family: serif;
+    }
 </style>
 
 ## About Me
 - Name: **Akhil Singamneni**
 - <p>CSA is lit</p>
 - <p>Junior :)</p>
+- **Quiz at the bottom of the page, so pay attention!**
 - Face: <img src="./images/IMG_7261.png" alt="Image" style="max-width: 100%; height: auto; width: 200px;">
   - Classes:
     - 📖 APEL (Mansour)
@@ -181,10 +209,39 @@ hide: true
     if (correctAnswers === 3) {
       resultMessage = "Perfect! You got all 3 questions correct!";
     } else {
-      resultMessage = "You got " + correctAnswers + " out of 3 correct.";
+      resultMessage = "You might want to pay more attention and take the quiz again";
     }
 
     document.getElementById("result").textContent = resultMessage;
     document.getElementById("result").style.color = correctAnswers === 3 ? "green" : "red";
   });
 </script>
+
+<div id="notebooks-container" class="category">Open Notebooks</div>
+
+<div id="notebooks" class="notebooks">
+  <button onclick="window.location.href='{{site.baseurl}}/notebookhacks'" class="category">Notebook Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/indexstruggles'" class="category">Ideation Struggles</button>
+
+</div>
+
+<script>
+    const categoryDiv = document.getElementById('notebooks-container');
+    const notebooksDiv = document.getElementById('notebooks');
+    const submenuDiv = document.getElementById('submenu');
+
+    categoryDiv.addEventListener('click', function() {
+      if (notebooksDiv.style.display === 'none' || notebooksDiv.style.display === '') {
+        notebooksDiv.style.display = 'block';
+      } else {
+        notebooksDiv.style.display = 'none';
+        submenuDiv.style.display = 'none';
+      }
+    });
+    const categoryItems = notebooksDiv.querySelectorAll('.category');
+    categoryItems.forEach(item => {
+      item.addEventListener('click', function() {
+        submenuDiv.style.display = 'block';
+      });
+    });
+  </script>

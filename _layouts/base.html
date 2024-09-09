@@ -12,5 +12,8 @@
   {%- include theme/time-machine/base.html -%}
 {% elsif site.remote_theme contains 'cayman' %}
   {%- include theme/cayman/base.html -%}
+  {%- if page.comments -%}
+    {%- include utterances.html -%}
+  {%- endif -%}
 {% endif %}
 </html>
