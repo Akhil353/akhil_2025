@@ -1,8 +1,8 @@
 ---
 layout: post
 toc: True
-title: HTML Hacks
-description: Playing with HTML
+title: Coop Coding
+description: Working with a partner to create a program
 type: ccc
 permalink: /coop
 ---
