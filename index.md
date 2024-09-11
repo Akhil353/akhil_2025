@@ -21,12 +21,14 @@ comments: true
 
   .grid-item {
     text-align: center;
+    position: relative;
   }
 
   .grid-item img {
     width: 100%;
     height: 100px; /* Fixed height for uniformity */
     object-fit: contain; /* Ensure the image fits within the fixed height */
+    cursor: pointer; /* Indicate that the image is clickable */
   }
 
   .grid-item p {
@@ -44,6 +46,14 @@ comments: true
     max-height: 150px;
     object-fit: cover;
     border-radius: 5px;
+  }
+
+  .description {
+    display: none;
+    margin-top: 10px;
+    color: #f0f0f0;
+    font-size: 14px;
+    text-align: center;
   }
 
   .notebooks {
@@ -72,7 +82,9 @@ comments: true
         font-family: serif;
     }
 </style>
-
+<p>Try out some other page header colors:</p>
+<input type="color" id="headerColorPicker1" name="headerColorPicker1" value="#2921ff">
+<input type="color" id="headerColorPicker2" name="headerColorPicker2" value="#00ff62">
 ## About Me
 - Name: **Akhil Singamneni**
 - <p>CSA is lit</p>
@@ -86,15 +98,10 @@ comments: true
     - 🍃 AP Physics Mechanics (Eckman)
     - 🌎 US History (Ayres)
 - <p>Class of 2026</p>
-- Countries I've been to:
-<div class="image-gallery" id="image_gallery">
-
-</div>
+- Countries I've been to (Click on the flags):
+<div class="image-gallery" id="image_gallery"></div>
 - [My Github](https://github.com/Akhil353)
 
-<p>Try out some other page header colors:</p>
-<input type="color" id="headerColorPicker1" name="headerColorPicker1" value="#2921ff">
-<input type="color" id="headerColorPicker2" name="headerColorPicker2" value="#00ff62">
 
 <script>
   function updateGradient() {
@@ -107,17 +114,15 @@ comments: true
   document.getElementById('headerColorPicker1').addEventListener('input', updateGradient);
   document.getElementById('headerColorPicker2').addEventListener('input', updateGradient);
 
-
   var container = document.getElementById("image_gallery");
 
   var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
   var places_visited = [
-    {"flag": "a/a4/Flag_of_the_United_States.svg", "description": "United States of America"},
-    {"flag": "4/41/Flag_of_India.svg", "description": "India"},
-    {"flag": "c/c3/Flag_of_France.svg", "description": "France"},
-    {"flag": "0/03/Flag_of_Italy.svg", "description": "Italy"},
-    {"flag": "f/f3/Flag_of_Switzerland.svg", "description": "Switzerland"},
-    {"flag": "f/fc/Flag_of_Mexico.svg", "description": "Mexico"},
+    {"flag": "a/a4/Flag_of_the_United_States.svg", "description": "United States of America", "extra_info": "This is where I lived for most of my life, and I have made a lot of memories here, good and bad."},
+    {"flag": "4/41/Flag_of_India.svg", "description": "India", "extra_info": "This is where I was born, and going here for summer is always fun. Both my grandparents live here, and the temples are very nice to visit."},
+    {"flag": "c/c3/Flag_of_France.svg", "description": "France", "extra_info": "I went here for my 7th grade summer, and I visited the Eiffel Tower and went to the Louvre."},
+    {"flag": "0/03/Flag_of_Italy.svg", "description": "Italy", "extra_info": "We visited Rome and the Colosseum during my 7th grade summer."},
+    {"flag": "f/f3/Flag_of_Switzerland.svg", "description": "Switzerland", "extra_info": "During my 7th grade summer, we visited here. There were very beautiful sights to see here in nature."}
   ];
 
   for (const location of places_visited) {
@@ -127,13 +132,24 @@ comments: true
     var img = document.createElement("img");
     img.src = http_source + location.flag;
     img.alt = location.description + " Flag";
+    img.setAttribute('data-description', location.extra_info);
 
     var description = document.createElement("p");
     description.textContent = location.description;
 
+    var extraInfo = document.createElement("p");
+    extraInfo.className = "description";
+    extraInfo.textContent = location.extra_info;
+
+    img.addEventListener('click', function() {
+      // Toggle display of the extra description
+      var desc = this.parentElement.querySelector('.description');
+      desc.style.display = desc.style.display === 'block' ? 'none' : 'block';
+    });
 
     imageGallery.appendChild(img);
     imageGallery.appendChild(description);
+    imageGallery.appendChild(extraInfo);
 
     container.appendChild(imageGallery);
   }
