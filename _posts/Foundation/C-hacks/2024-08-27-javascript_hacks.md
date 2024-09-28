@@ -2,7 +2,7 @@
 layout: post
 title: JavaScript Hacks
 description: Hacks using CSS, HTML, and JS
-type: tangibles
+type: collab
 courses: { csa: {week: 1} }
 categories: [JavaScript]
 menu: nav/tools_setup.html
