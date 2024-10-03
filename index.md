@@ -16,7 +16,7 @@ comments: true
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Dynamic columns */
-    gap: 10px;
+    gap: 10 px;
   }
 
   .grid-item {
