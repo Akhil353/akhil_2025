@@ -110,7 +110,7 @@ Load all posts with site
   {%comment%} 
   <!-- organizing blogs by type -->
   {%endcomment%}
-          {% if post.type == "plans" %} 
+          {% if post.type == "ccc" %} 
               {% assign ccc = ccc | unshift: title %}
               {% assign ccc = ccc | unshift: url %}
           {% elsif post.type == "collab" %}
