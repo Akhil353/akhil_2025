@@ -7,7 +7,16 @@ permalink: /csa/sprint_2/
 menu: nav/CSA/sprint_2.html
 type: collab
 ---
-
+### What I learned/How I used it
+- Learned the basics of Java
+  - Iteration
+  - Data Types
+  - Objects & Classes
+- How I applied the information
+  - Calendar to save/dispay events that are inputted by user
+    - ArrayLists to store events
+    - Classes to provide functionality to calendar
+    - Iteration to get user input
 
 
 ### Checklist Table
@@ -17,10 +26,10 @@ type: collab
 | Pull Request (Integration) | 2             |     1.8    |       <img width="1298" alt="Screenshot 2024-10-08 at 10 55 26 AM" src="https://github.com/user-attachments/assets/badc5f6c-b542-4e90-a281-352837b3edfc">       |
 | Relevancy Checklist (Peer) | 2             |     1.84     |      See issue replies below for more info      |
 | Lesson (Group)             | 1             |      0.93     |       <img width="1166" alt="Screenshot 2024-10-08 at 11 00 37 AM" src="https://github.com/user-attachments/assets/2b912b03-0fdc-48be-8220-c8a123e313f5">       |
-| Homework, Popcorn Hacks    | 1 x 8         |     6.45 (Not Finished)      |      <img width="1044" alt="Screenshot 2024-10-09 at 9 03 35 PM" src="https://github.com/user-attachments/assets/562cd2eb-2733-4ccd-9ef3-33a2e116ac0a"> <img width="1065" alt="Screenshot 2024-10-08 at 10 17 48 PM" src="https://github.com/user-attachments/assets/7a8eff9d-3cac-4f94-a798-b32cf0941d85">   <img width="803" alt="Screenshot 2024-10-08 at 10 17 39 PM" src="https://github.com/user-attachments/assets/8ad33736-4ffc-4dbf-85df-393807851fc8"> <img width="858" alt="Screenshot 2024-10-08 at 10 17 31 PM" src="https://github.com/user-attachments/assets/75f73530-6b7a-4779-bc50-fc274e37ea0f"> <img width="1412" alt="Screenshot 2024-10-08 at 10 17 16 PM" src="https://github.com/user-attachments/assets/76298a37-c3b7-402a-a235-a4ce3de1d0dd"> <img width="1165" alt="Screenshot 2024-10-08 at 10 16 15 PM" src="https://github.com/user-attachments/assets/9e674b45-1856-43ad-9017-7d7297d45fc0">     |
+| Homework, Popcorn Hacks    | 1 x 8         |     7.35     |      <img width="1044" alt="Screenshot 2024-10-09 at 9 03 35 PM" src="https://github.com/user-attachments/assets/562cd2eb-2733-4ccd-9ef3-33a2e116ac0a"> <img width="1065" alt="Screenshot 2024-10-08 at 10 17 48 PM" src="https://github.com/user-attachments/assets/7a8eff9d-3cac-4f94-a798-b32cf0941d85">   <img width="803" alt="Screenshot 2024-10-08 at 10 17 39 PM" src="https://github.com/user-attachments/assets/8ad33736-4ffc-4dbf-85df-393807851fc8"> <img width="858" alt="Screenshot 2024-10-08 at 10 17 31 PM" src="https://github.com/user-attachments/assets/75f73530-6b7a-4779-bc50-fc274e37ea0f"> <img width="1412" alt="Screenshot 2024-10-08 at 10 17 16 PM" src="https://github.com/user-attachments/assets/76298a37-c3b7-402a-a235-a4ce3de1d0dd"> <img width="1165" alt="Screenshot 2024-10-08 at 10 16 15 PM" src="https://github.com/user-attachments/assets/9e674b45-1856-43ad-9017-7d7297d45fc0">     |
 | Individual Contribution    | 1             |     0.94     |      <img width="1468" alt="Screenshot 2024-10-08 at 11 10 37 AM" src="https://github.com/user-attachments/assets/42d3ecc9-3d39-4032-9042-de4de33f2abb">      |
 | Personal Notebooks / Blogs | 1             |     0.93     |        <img width="763" alt="Screenshot 2024-10-08 at 11 01 33 AM" src="https://github.com/user-attachments/assets/5620ac66-ec6b-4d3f-aca7-96874149202a">      |
-| Total                      | 15            |     12.93 (Not finished)      |       My main issue in these tasks was going above and beyond in an impactful way that would differentiate me from others. In the future, I want to improve on this by specifically working on theming all my work around specific ideas that could help me in my day-to-day life.      |
+| Total                      | 15            |     13.83      |       My main issue in these tasks was going above and beyond in an impactful way that would differentiate me from others. In the future, I want to improve on this by specifically working on theming all my work around specific ideas that could help me in my day-to-day life.      |
 
 
 | **Skill**                  | **Points**    | **Grade** | **Evidence** |
