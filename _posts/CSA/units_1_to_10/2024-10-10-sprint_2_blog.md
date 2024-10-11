@@ -7,14 +7,112 @@ permalink: /csa/sprint_2/
 menu: nav/CSA/sprint_2.html
 type: collab
 ---
-### Overview of new skills
-- Learned the basics of Java
-  - Iteration
-  - Data Types
-  - Objects & Classes
-  - Inheritance
+# Overview of new skills
 
-### Application
+### Unit 5: Classes
+ - How classes interact with Java
+ - Methods to make classes useful
+```java
+public class Student {
+    private String name;
+    private int score;
+
+    // Overloaded constructor
+    public Student(String n, int s) {
+        name = n;
+        score = s;
+    }
+
+    // Accessor Methods
+    public String getName() {
+        return name;
+    }
+
+    // Mutator Methods
+    public void setName(String n) {
+        name = n;
+    }
+
+    public void setScore(int s) {
+        if (s < 0 || s > 100) {
+            score = 0; // default value
+        } else {
+            score = s;
+        }
+    }
+
+    public boolean pass() {
+        return (score >= 70);
+    }
+```
+
+### Unit 7: Arraylists
+  - Variable list storage (Like Python!)
+  - How to use, implement, access, and more
+```java
+public class ArrayListHacks {
+    private int findSum(ArrayList<Integer> values) {
+        int sum = 0;
+        for (int num: values) {
+            sum += num; // Go through each number and add to the sum counter 
+        }
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        ArrayList<Integer> nums = new ArrayList<>();
+        nums.add(0);
+        nums.add(1);
+        nums.add(2);
+        nums.add(3);
+        nums.add(5);
+        nums.add(8);
+
+        ArrayListHacks hacks = new ArrayListHacks();
+        System.out.println(hacks.findSum(nums));
+    }
+}
+
+ArrayListHacks.main(null);
+```
+
+### Unit 9: Inheritance
+ - How to link multiple classes together
+ - Helps make a system that works cohesively in different blocks
+```java
+class Textbook extends Book {
+    private int edition;
+
+    public Textbook(String title, double price, int edition) {
+        super(title, price);
+        this.edition = edition;
+    }
+
+    public int getEdition() {
+        return edition;
+    }
+
+    public boolean canSubstituteFor(Textbook other) {
+        return this.getTitle().equals(other.getTitle()) && this.edition >= other.edition;
+    }
+
+    @Override
+    public String getBookInfo() {
+        return "Title: " + getTitle() + ", Price: $" + getPrice() + ", Edition: " + edition;
+    }
+
+    @Override
+    public String toString() {
+        return getBookInfo();
+    }
+}
+```
+
+# Presentation Memories
+ - <img width="735" alt="Screenshot 2024-10-09 at 12 51 30 PM" src="https://github.com/user-attachments/assets/ab319f91-dbcb-4e56-b811-e46495659da8">
+ - Personal Experience from a classmate: I thought the rotating lesson idea was a good way to be able to learn a lot without getting too bored, and I liked the lesson overall as it allowed me to freely ask questions.
+
+# Application (Beyond Perfunctory)
 - Calendar to save/dispay events that are inputted by user
     - ArrayLists to store events
     - Classes to provide functionality to calendar
