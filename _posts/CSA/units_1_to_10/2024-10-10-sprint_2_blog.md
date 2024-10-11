@@ -7,16 +7,227 @@ permalink: /csa/sprint_2/
 menu: nav/CSA/sprint_2.html
 type: collab
 ---
-### What I learned/How I used it
+### Overview of new skills
 - Learned the basics of Java
   - Iteration
   - Data Types
   - Objects & Classes
-- How I applied the information
-  - Calendar to save/dispay events that are inputted by user
+  - Inheritance
+
+### Application
+- Calendar to save/dispay events that are inputted by user
     - ArrayLists to store events
     - Classes to provide functionality to calendar
     - Iteration to get user input
+    - See code below
+
+
+```java
+import java.util.ArrayList;
+import java.util.Scanner;
+
+class Event {
+    private String name;
+    private String date;
+    private String time;
+    private String description;
+
+    // initialize the vars for events
+    public Event(String name, String date, String time, String description) {
+        this.name = name;
+        this.date = date;
+        this.time = time;
+        this.description = description;
+    }
+
+    // getters for info for events
+    public String getName() {
+        return name;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    @Override
+    public String toString() {
+        return "Event: " + name + ", Date: " + date + ", Time: " + time + ", Description: " + description;
+    }
+}
+
+// organizer class to keep track of events
+class Organizer {
+    private ArrayList<Event> events;
+
+    public Organizer() {
+        events = new ArrayList<>(); // initializing event array
+    }
+
+    // Add a new event
+    public void addEvent(Event event) {
+        events.add(event);
+        System.out.println("Event added: " + event);
+    }
+
+    // Display all events
+    public void displayEvents() {
+        if (events.isEmpty()) {
+            System.out.println("No events scheduled.");
+        } else {
+            System.out.println("Scheduled Events:");
+            for (Event event : events) {
+                System.out.println(event);
+            }
+        }
+    }
+
+    // Find events on a specific date
+    public void findEventsByDate(String date) {
+        boolean found = false;
+        System.out.println("Events on " + date + ":");
+        for (Event event : events) {
+            if (event.getDate().equals(date)) {
+                System.out.println(event);
+                found = true;
+            }
+        }
+        if (!found) {
+            System.out.println("No events found on this date.");
+        }
+    }
+
+    // Recursive method to count events
+    public int countEvents() {
+        return countEventsRecursively(events.size());
+    }
+
+    private int countEventsRecursively(int index) {
+        if (index == 0) {
+            return 0;
+        }
+        return 1 + countEventsRecursively(index - 1);
+    }
+}
+
+// ui for user to input events
+public class EventOrganizerApp {
+    public static void main(String[] args) {
+        Organizer organizer = new Organizer();
+        Scanner scanner = new Scanner(System.in);
+        int choice;
+
+        do { // display menu
+            System.out.println("\nEvent Organizer Menu:");
+            System.out.println("1. Add Event");
+            System.out.println("2. Display Events");
+            System.out.println("3. Find Events by Date");
+            System.out.println("4. Count Events");
+            System.out.println("5. Exit");
+            System.out.print("Choose an option: ");
+            choice = scanner.nextInt();
+            scanner.nextLine(); // Consume newline
+
+            switch (choice) { // perform different actions based on the user input from above
+                case 1:
+                    System.out.print("\n");
+                    System.out.print("Enter event name: ");
+                    String name = scanner.nextLine();
+                    System.out.print("\n");
+                    System.out.print("Enter event date (YYYY-MM-DD): ");
+                    String date = scanner.nextLine();
+                    System.out.print("\n");
+                    System.out.print("Enter event time (HH:MM): ");
+                    String time = scanner.nextLine();
+                    System.out.print("\n");
+                    System.out.print("Enter event description: ");
+                    String description = scanner.nextLine();
+                    Event event = new Event(name, date, time, description);
+                    organizer.addEvent(event);
+                    break;
+                case 2:
+                    organizer.displayEvents();
+                    break;
+                case 3:
+                    System.out.print("\n");
+                    System.out.print("Enter date to search (YYYY-MM-DD): ");
+                    String searchDate = scanner.nextLine();
+                    organizer.findEventsByDate(searchDate);
+                    break;
+                case 4:
+                    System.out.print("\n");
+                    System.out.println("Total number of events: " + organizer.countEvents());
+                    break;
+                case 5:
+                    System.out.print("\n");
+                    System.out.println("Exiting...");
+                    break;
+                default:
+                    System.out.print("\n");
+                    System.out.println("Invalid choice. Please try again.");
+            }
+        } while (choice != 5);
+
+        scanner.close();
+    }
+}
+EventOrganizerApp.main(null); // run the code
+```
+### Output: 
+Event Organizer Menu:
+1. Add Event
+2. Display Events
+3. Find Events by Date
+4. Count Events
+5. Exit
+Choose an option: 
+Enter event name: 
+Enter event date (YYYY-MM-DD): 
+Enter event time (HH:MM): 
+Enter event description: Event added: Event: Coding, Date: 2024-10-09, Time: 12:00, Description: Code Code Code
+
+Event Organizer Menu:
+1. Add Event
+2. Display Events
+3. Find Events by Date
+4. Count Events
+5. Exit
+Choose an option: Scheduled Events:
+Event: Coding, Date: 2024-10-09, Time: 12:00, Description: Code Code Code
+
+Event Organizer Menu:
+1. Add Event
+2. Display Events
+3. Find Events by Date
+4. Count Events
+5. Exit
+Choose an option: Scheduled Events:
+Event: Coding, Date: 2024-10-09, Time: 12:00, Description: Code Code Code
+
+Event Organizer Menu:
+1. Add Event
+2. Display Events
+3. Find Events by Date
+4. Count Events
+5. Exit
+Choose an option: 
+Total number of events: 1
+
+Event Organizer Menu:
+1. Add Event
+2. Display Events
+3. Find Events by Date
+4. Count Events
+5. Exit
+Choose an option: 
+Exiting...
 
 
 ### Checklist Table
