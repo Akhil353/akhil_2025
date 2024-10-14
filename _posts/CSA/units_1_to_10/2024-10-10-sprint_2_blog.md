@@ -79,6 +79,7 @@ ArrayListHacks.main(null);
 ### Unit 9: Inheritance
  - How to link multiple classes together
  - Helps make a system that works cohesively in different blocks
+
 ```java
 class Textbook extends Book {
     private int edition;
@@ -111,6 +112,8 @@ class Textbook extends Book {
 # Presentation Memories
  - <img width="735" alt="Screenshot 2024-10-09 at 12 51 30 PM" src="https://github.com/user-attachments/assets/ab319f91-dbcb-4e56-b811-e46495659da8">
  - Personal Experience from a classmate: I thought the rotating lesson idea was a good way to be able to learn a lot without getting too bored, and I liked the lesson overall as it allowed me to freely ask questions.
+
+#
 
 # Application (Beyond Perfunctory)
 - Calendar to save/dispay events that are inputted by user
