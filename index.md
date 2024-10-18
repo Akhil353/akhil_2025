@@ -94,12 +94,18 @@ comments: true
   - Learn Java
 
 
-<div id="notebooks-container" class="category">Open Notebooks</div>
+<div id="notebooks-container" class="category">CollegeBoard Info Review</div>
 
 <div id="notebooks" class="notebooks">
-  <button onclick="window.location.href='{{site.baseurl}}/notebookhacks'" class="category">Notebook Hacks</button>
-  <button onclick="window.location.href='{{site.baseurl}}/indexstruggles'" class="category">Ideation Struggles</button>
-  <button onclick="window.location.href='{{site.baseurl}}/htmlhacks'" class="category">HTML Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/csa/units/quiz1'" class="category">Unit 1 Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/csa/unit2/period3/homework'" class="category">Unit 2 Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/csa/unit3/period3/homework/'" class="category">Unit 3 Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/csa/unit4/period3/homework/'" class="category">Unit 4 Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/csa/unit5/period3/homework/'" class="category">Unit 5 Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/csa/unit6lesson'" class="category">Unit 6 Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/csa/unit7/period3/homework/'" class="category">Unit 7 Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/csa/unit8/period3/homework/'" class="category">Unit 8 Hacks</button>
+  
 
 </div>
 
