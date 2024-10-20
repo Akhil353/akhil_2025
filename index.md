@@ -101,10 +101,11 @@ comments: true
   <button onclick="window.location.href='{{site.baseurl}}/csa/unit2/period3/homework'" class="category">Unit 2 Hacks</button>
   <button onclick="window.location.href='{{site.baseurl}}/csa/unit3/period3/homework/'" class="category">Unit 3 Hacks</button>
   <button onclick="window.location.href='{{site.baseurl}}/csa/unit4/period3/homework/'" class="category">Unit 4 Hacks</button>
-  <button onclick="window.location.href='{{site.baseurl}}/csa/unit5/period3/homework/'" class="category">Unit 5 Hacks</button>
-  <button onclick="window.location.href='{{site.baseurl}}/csa/unit6lesson'" class="category">Unit 6 Hacks</button>
-  <button onclick="window.location.href='{{site.baseurl}}/csa/unit7/period3/homework/'" class="category">Unit 7 Hacks</button>
-  <button onclick="window.location.href='{{site.baseurl}}/csa/unit8/period3/homework/'" class="category">Unit 8 Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/unit_5_hacks/'" class="category">Unit 5 Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/unit6lesson'" class="category">Unit 6 Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/csa/unit7-p3/unit7-1hw/'" class="category">Unit 7 Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/csa/unit8yay/hw/'" class="category">Unit 8 Hacks</button>
+  <button onclick="window.location.href='{{site.baseurl}}/inheritance-hacks/'" class="category">Unit 9 Hacks</button>
   
 
 </div>
