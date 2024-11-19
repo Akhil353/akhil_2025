@@ -5,6 +5,7 @@ courses: {'csa': {'week': 13}}
 type: collab
 categories: ['AP CSA']
 permalink: /trimester_1_review
+comments: true
 ---
 # Review of Trimester 1 Work
 - Project Overview
