@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title: Trimester 1 Review
 courses: {'csa': {'week': 13}}
 type: collab
