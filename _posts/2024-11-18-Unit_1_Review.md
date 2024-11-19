@@ -19,6 +19,9 @@ permalink: /trimester_1_review
    - Created the update tasks feature (allows for adding tasks to each student)
      - ![Tri 1 Code 3](/akhil_2025/images/tri_review_3.png)
 
+# 2014 Practice MCQ Score
+![Tri 1 Code 6](/akhil_2025/images/tri_review_6.png)
+
 # Collegeboard Mistakes
 
 ### Main Issues
