@@ -1,5 +1,5 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/Akhil/vscode/student_2025'
+make: Entering directory `/Users/Akhil/vscode/akhil_2025'
 echo "Stopping server..."
 # kills process running on port 4100
 lsof -ti :4100 | xargs kill >/dev/null 2>&1 || true
@@ -8,33 +8,174 @@ echo "Stopping logging process..."
 ps aux | awk -v log_file=/tmp/jekyll4100.log '$0 ~ "tail -f " log_file { print $2 }' | xargs kill >/dev/null 2>&1 || true
 # removes log
 rm -f /tmp/jekyll4100.log
-echo "Converting source _notebooks/Foundation/A-pair_programming/2023-08-17-pair_habits.ipynb to destination _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md"
-mkdir -p _posts/Foundation/A-pair_programming
-python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/A-pair_programming/2023-08-17-pair_habits.ipynb"
-echo "Converting source _notebooks/Foundation/A-pair_programming/2023-08-16-pair_showcase.ipynb to destination _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md"
-mkdir -p _posts/Foundation/A-pair_programming
-python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/A-pair_programming/2023-08-16-pair_showcase.ipynb"
-echo "Converting source _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home.ipynb to destination _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md"
-mkdir -p _posts/Foundation/B-tools_and_equipment
-python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home.ipynb"
-echo "Converting source _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup.ipynb to destination _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md"
-mkdir -p _posts/Foundation/B-tools_and_equipment
-python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup.ipynb"
-echo "Converting source _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks.ipynb to destination _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md"
-mkdir -p _posts/Foundation/B-tools_and_equipment
-python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks.ipynb"
-echo "Converting source _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play.ipynb to destination _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md"
-mkdir -p _posts/Foundation/B-tools_and_equipment
-python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play.ipynb"
-echo "Converting source _notebooks/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts.ipynb to destination _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md"
-mkdir -p _posts/Foundation/B-tools_and_equipment
-python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts.ipynb"
-echo "Converting source _notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb to destination _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md"
-mkdir -p _posts/Foundation/B-tools_and_equipment
-python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb"
-echo "Converting source _notebooks/Foundation/2024-08-21-sprint1_plan.ipynb to destination _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_04/2024-10-08-unit_4_work.ipynb to destination _posts/CSA/units_1_to_10/unit_04/2024-10-08-unit_4_work_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_04
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_04/2024-10-08-unit_4_work.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_03/2024-10-08-unit_3_work.ipynb to destination _posts/CSA/units_1_to_10/unit_03/2024-10-08-unit_3_work_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_03
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_03/2024-10-08-unit_3_work.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part2.ipynb to destination _posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part2_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_02
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part2.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_HW.ipynb to destination _posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_HW_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_02
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_HW.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part1.ipynb to destination _posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part1_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_02
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part1.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_02/2024-09-13-Unit_2_part3.ipynb to destination _posts/CSA/units_1_to_10/unit_02/2024-09-13-Unit_2_part3_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_02
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_02/2024-09-13-Unit_2_part3.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_home.ipynb to destination _posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_home_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_02
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_home.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_02/2024-09-16-Unit_2_part4.ipynb to destination _posts/CSA/units_1_to_10/unit_02/2024-09-16-Unit_2_part4_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_02
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_02/2024-09-16-Unit_2_part4.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_02/2024-09-25-Unit_2_work.ipynb to destination _posts/CSA/units_1_to_10/unit_02/2024-09-25-Unit_2_work_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_02
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_02/2024-09-25-Unit_2_work.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-10-01-unit_5_work.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-10-01-unit_5_work_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_05
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-10-01-unit_5_work.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-23-unit_5-homework.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-23-unit_5-homework_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_05
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-23-unit_5-homework.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-15-unit_5-constructors.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-15-unit_5-constructors_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_05
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-15-unit_5-constructors.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-mutator-methods.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-mutator-methods_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_05
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-mutator-methods.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-accessor.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-accessor_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_05
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-accessor.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-18-unit_5-static-variables-and-methods.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-18-unit_5-static-variables-and-methods_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_05
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-18-unit_5-static-variables-and-methods.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-19-unit_5-this-keyword.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-19-unit_5-this-keyword_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_05
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-19-unit_5-this-keyword.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-scope_access_hacks.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-scope_access_hacks_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_05
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-scope_access_hacks.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-writing-methods.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-writing-methods_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_05
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-writing-methods.ipynb"
+ 
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-toString.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-toString_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_05
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-toString.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-16-unit_5-classanatomy.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-16-unit_5-classanatomy_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_05
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-16-unit_5-classanatomy.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-home.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-home_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_05
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-home.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_09/2023-09-12-U9-6.ipynb to destination _posts/CSA/units_1_to_10/unit_09/2023-09-12-U9-6_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_09
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_09/2023-09-12-U9-6.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_09/2024-09-12-U9-0-Inheritance.ipynb to destination _posts/CSA/units_1_to_10/unit_09/2024-09-12-U9-0-Inheritance_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_09
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_09/2024-09-12-U9-0-Inheritance.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_09/2023-09-12-U9-7.ipynb to destination _posts/CSA/units_1_to_10/unit_09/2023-09-12-U9-7_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_09
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_09/2023-09-12-U9-7.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_09/2024-09-12-U9-1.ipynb to destination _posts/CSA/units_1_to_10/unit_09/2024-09-12-U9-1_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_09
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_09/2024-09-12-U9-1.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_09/2024-09-12-U9-3.ipynb to destination _posts/CSA/units_1_to_10/unit_09/2024-09-12-U9-3_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_09
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_09/2024-09-12-U9-3.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_09/2023-09-21-U9-hacks.ipynb to destination _posts/CSA/units_1_to_10/unit_09/2023-09-21-U9-hacks_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_09
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_09/2023-09-21-U9-hacks.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_09/2024-09-18-U9-5.ipynb to destination _posts/CSA/units_1_to_10/unit_09/2024-09-18-U9-5_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_09
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_09/2024-09-18-U9-5.ipynb"
+ 
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_homePage.ipynb to destination _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_homePage_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_07
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_homePage.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_hacks.ipynb to destination _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_hacks_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_07
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_hacks.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Sorting.ipynb to destination _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Sorting_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_07
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Sorting.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_07/2024-10-02-Unit_7_work.ipynb to destination _posts/CSA/units_1_to_10/unit_07/2024-10-02-Unit_7_work_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_07
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_07/2024-10-02-Unit_7_work.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamteachPeriod3.ipynb to destination _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamteachPeriod3_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_07
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamteachPeriod3.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Searching&algorithms.ipynb to destination _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Searching&algorithms_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_07
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Searching&algorithms.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_traversing.ipynb to destination _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_traversing_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_07
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_traversing.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Ethics.ipynb to destination _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Ethics_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_07
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Ethics.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_06/2024-06-24-unit_6.ipynb to destination _posts/CSA/units_1_to_10/unit_06/2024-06-24-unit_6_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_06
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_06/2024-06-24-unit_6.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_06/enhanced_for_loops.ipynb to destination _posts/CSA/units_1_to_10/unit_06/enhanced_for_loops_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_06
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_06/enhanced_for_loops.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/2024-10-08-calendar.ipynb to destination _posts/CSA/units_1_to_10/2024-10-08-calendar_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/2024-10-08-calendar.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_01/2024-06-23-unit_1._intro.ipynb to destination _posts/CSA/units_1_to_10/unit_01/2024-06-23-unit_1._intro_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_01
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_01/2024-06-23-unit_1._intro.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_stack_heap.ipynb to destination _posts/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_stack_heap_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_01
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_stack_heap.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_01/2024-07-01-unit_1_examples.ipynb to destination _posts/CSA/units_1_to_10/unit_01/2024-07-01-unit_1_examples_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_01
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_01/2024-07-01-unit_1_examples.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_01/2024-07-13-unit_1_quiz.ipynb to destination _posts/CSA/units_1_to_10/unit_01/2024-07-13-unit_1_quiz_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_01
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_01/2024-07-13-unit_1_quiz.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_primatives.ipynb to destination _posts/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_primatives_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_01
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_primatives.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_reference.ipynb to destination _posts/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_reference_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_01
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_reference.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_08/2024-09-23-Unit8-ImageConverter.ipynb to destination _posts/CSA/units_1_to_10/unit_08/2024-09-23-Unit8-ImageConverter_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_08
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_08/2024-09-23-Unit8-ImageConverter.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_08/2024-09-23-unit8-hw.ipynb to destination _posts/CSA/units_1_to_10/unit_08/2024-09-23-unit8-hw_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_08
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_08/2024-09-23-unit8-hw.ipynb"
+ 
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_08/2024-09-19-Home.ipynb to destination _posts/CSA/units_1_to_10/unit_08/2024-09-19-Home_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_08
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_08/2024-09-19-Home.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_08/2024-09-27-unit_8_work.ipynb to destination _posts/CSA/units_1_to_10/unit_08/2024-09-27-unit_8_work_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_08
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_08/2024-09-27-unit_8_work.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_08/2024-09-18-8.2.ipynb to destination _posts/CSA/units_1_to_10/unit_08/2024-09-18-8.2_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_08
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_08/2024-09-18-8.2.ipynb"
+echo "Converting source _notebooks/CSA/units_1_to_10/unit_08/2024-09-19-8.1.ipynb to destination _posts/CSA/units_1_to_10/unit_08/2024-09-19-8.1_IPYNB_2_.md"
+mkdir -p _posts/CSA/units_1_to_10/unit_08
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_08/2024-09-19-8.1.ipynb"
+echo "Converting source _notebooks/Foundation/2024-09-04-emoji_hacks.ipynb to destination _posts/Foundation/2024-09-04-emoji_hacks_IPYNB_2_.md"
 mkdir -p _posts/Foundation
-python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-08-21-sprint1_plan.ipynb"
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-09-04-emoji_hacks.ipynb"
+echo "Converting source _notebooks/Foundation/2024-09-06-html_hacks.ipynb to destination _posts/Foundation/2024-09-06-html_hacks_IPYNB_2_.md"
+mkdir -p _posts/Foundation
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-09-06-html_hacks.ipynb"
+echo "Converting source _notebooks/Foundation/C-plans/2024-08-27-index_blog.ipynb to destination _posts/Foundation/C-plans/2024-08-27-index_blog_IPYNB_2_.md"
+mkdir -p _posts/Foundation/C-plans
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/C-plans/2024-08-27-index_blog.ipynb"
+echo "Converting source _notebooks/Foundation/C-plans/2024-08-26-Javascript_Ideation.ipynb to destination _posts/Foundation/C-plans/2024-08-26-Javascript_Ideation_IPYNB_2_.md"
+mkdir -p _posts/Foundation/C-plans
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/C-plans/2024-08-26-Javascript_Ideation.ipynb"
 echo "Starting server..."
 nohup bundle exec jekyll serve -H 127.0.0.1 -P 4100 > /tmp/jekyll4100.log 2>&1 & \
 		PID=$!; \
@@ -44,7 +185,7 @@ echo "Terminal logging starting, watching server..."
 # tail and awk work together to extract Jekyll regeneration messages
 # When a _notebook is detected in the log, call make convert in the background
 # Note: We use the "if ($0 ~ /_notebooks\/.*\.ipynb/) { system(\"make convert &\") }" to call make convert
-(tail -f /tmp/jekyll4100.log | awk '/Server address: http:\/\/127.0.0.1:4100\/student_2025\// { serverReady=1 } \
+(tail -f /tmp/jekyll4100.log | awk '/Server address: http:\/\/127.0.0.1:4100\/akhil_2025\// { serverReady=1 } \
 	serverReady && /^ *Regenerating:/ { regenerate=1 } \
 	regenerate { \
 		if (/^[[:blank:]]*$/) { regenerate=0 } \
@@ -69,5 +210,5 @@ for ((COUNTER = 0; ; COUNTER++)); do \
 	done
 # outputs startup log, removes last line ($d) as ctl-c message is not applicable for background process
 sed '$d' /tmp/jekyll4100.log
-make: Leaving directory `/Users/Akhil/vscode/student_2025'
+make: Leaving directory `/Users/Akhil/vscode/akhil_2025'
  
