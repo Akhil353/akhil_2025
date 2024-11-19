@@ -7,8 +7,11 @@ categories: ['AP CSA']
 permalink: /trimester_1_review
 ---
 # Review of Trimester 1 Work
+- Project Overview
+   - My group made a project management system that would track the tasks each student in a particular group is working on. The groups were split by table and you could see what each student was working on. 
+
  - Frontend Features
-   - Implemented backend features using fetch commands
+   - Implemented backend features using fetch commands to display users
      - ![Tri 1 Code](/akhil_2025/images/tri_review_1.png)
  - Backend Features
    - Created the find teams feature (Lets the user see who is at a table)
