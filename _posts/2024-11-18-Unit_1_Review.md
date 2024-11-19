@@ -25,7 +25,10 @@ comments: true
 
 # Collegeboard Mistakes
 
-### Main Issues
+## Content Breakdown
+![Tri 1 Code 6](/akhil_2025/images/tri_review_7.png)
+
+## Main Issues
  - Code Simulation (Q22, Q23, Q27, Q30, Q31, Q33-36, Q39, Q40)
    - I had a lot of trouble with running complicated code in my head, often due to not seeing the nuances in the code. For example, in the image below, I didn't understand that it was decrementing the length of the subscript and not increasing, which led me to pick the wrong answer. By taking more time on these questions in the future, I can do better on these types of questions.
    - ![Tri 1 Code 4](/akhil_2025/images/tri_review_4.png)
