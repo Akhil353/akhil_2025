@@ -4,7 +4,7 @@ title: Trimester 2 Review
 courses: {'csa': {'week': 23}}
 type: collab
 categories: ['AP CSA']
-permalink: /trimester_2_review
+permalink: /tri_2_review
 comments: true
 ---
 
@@ -56,7 +56,6 @@ comments: true
     - JQuery: Simplifying HTML, animating frontend, Handling AJAX interactions, etc.
     - Thymeleaf: Using templates to fill out HTML tables
 
-#### Task 5: Collegeboard Topics Learned
 
 &nbsp;
 &nbsp;
@@ -65,6 +64,7 @@ comments: true
 
 
 ---
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -72,6 +72,120 @@ comments: true
 # Collegeboard Practice Results
 
 #### MCQ Results
-  - Score: 34/39
+  - Score: 35/39
   - Big improvements when it came to tasks such as recursion or code simulation
-  - ADD WRONG QUESTIONS + CODE CELLS OF THE QUESTIONS BELOW
+  
+- Question 8: Operation Method on 2D int array
+  - Got the wrong answer since I didn't make sure I got the indexes right for each loop
+  - Make sure to write out each loop on paper to clarify which numbers are being used
+
+```java
+public class MatrixOperation {
+    public static int[] operation(int[][] matrix, int r, int c) {
+        int[] result = new int[matrix.length];
+
+        for (int j = 0; j < matrix.length; j++) {
+            result[j] = matrix[r][j] * matrix[j][c];
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int[][] mat = {
+            {3, 2, 1, 4},
+            {1, 2, 3, 4},
+            {2, 2, 1, 2},
+            {1, 1, 1, 1}
+        };
+
+        int[] arr = operation(mat, 1, 2);
+
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+}
+
+1
+1
+
+2
+3
+
+3
+1
+
+4
+1
+
+1
+6
+3
+4
+```
+
+- Question 9: Generate Random Number of cubes
+  - Got the question wrong since I forgot that the Math.random() function starts at 0 and goes up to but doesn't include the input
+  - Review Java commands to see how exactly they work and what they do
+  - ![Alt text](/akhil_2025/images/tri2_review_1.png)
+
+- Question 18: Print statement with mathematical operators
+  - Got the wrong answer since I forgot that operations return integer values if only performed with integers
+  - Review how Java math works (integer math, float math, etc.)
+
+```java
+System.out.println(404/10);
+System.out.println(40*10);
+System.out.println(400+1);
+
+
+40
+400
+401
+```
+
+ - Question 19: Loop that prints nothing
+   - Got the question wrong since I forgot to account for the if condition in the while loop
+   - Make sure to check all if/while statements instead of focusing in on just what the question modifies
+
+```java
+public class WhileLoopConditions {
+    public static void main(String[] args) {
+        System.out.println("Condition I: x < 0");
+        int x1 = 1;
+        while (x1 < 0) { // Condition I
+            if (x1 % 2 == 0) {
+                System.out.print(x1 + " ");
+            }
+            x1 = x1 + 2;
+        }
+
+        System.out.println("\nCondition II: x <= 1");
+        int x2 = 1;
+        while (x2 <= 1) { // Condition II
+            if (x2 % 2 == 0) {
+                System.out.print(x2 + " ");
+            }
+            x2 = x2 + 2;
+        }
+
+        System.out.println("\nCondition III: x < 10");
+        int x3 = 1;
+        while (x3 < 10) { // Condition III
+            if (x3 % 2 == 0) {
+                System.out.print(x3 + " ");
+            }
+            x3 = x3 + 2;
+        }
+    }
+}
+
+WhileLoopConditions.main(null);
+
+
+Condition I: x < 0
+
+Condition II: x <= 1
+
+Condition III: x < 10
+```
