@@ -189,3 +189,28 @@ Condition II: x <= 1
 
 Condition III: x < 10
 ```
+
+# Feedback from N@tM
+  - Lots of positive feedback
+    - Parents were interested in seeing how the different subsystems worked together
+  - Advice from students
+    - Make the queue system easier to use on backend (Who is presenting at any given moment?)
+    - Separate the group queue page from the individual queue
+
+# Review of the Trimester
+  - Good: 
+    - Added multiple new systems (assignment submissions, group queue feature, StudentInfo view, etc.)
+    - Learned lots of CollegeBoard topics (Array/ArrayLists, Methods/Control Structures, Recursion)
+  - Bad:
+    - Not a lot of progress made on collaborative work
+    - Lack of innovation (work for the sake of working and not to create a usable system)
+  - Improvements for next trimester:
+    - Communicate with others to divvy up work easier
+    - Use the flowcharts to see how work can be split up
+    - Ideate with others when coming up with a plan to execute
+
+
+# ADD THESE
+
+- analytics / issues
+- N@TM feedback
