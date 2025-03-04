@@ -135,7 +135,7 @@ Condition III: x < 10
 
 
 
-## FRQ 2015 (Questions 1-4)
+## FRQ 2015 
 
 Part 1: Sum of Elements in a 1D Array
 
