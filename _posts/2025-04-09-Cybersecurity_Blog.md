@@ -56,3 +56,5 @@ comments: true
     - Also get novice certifications
   - Work with and manage groups
   - Research/exploits turn into usable attacks very quickly (hours to days)
+
+![Image](/akhil_2025/images/IMG_8144.png)
