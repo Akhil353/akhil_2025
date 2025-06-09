@@ -26,4 +26,4 @@ Groups is another part of the OpenCodingSociety's toolkit system. The Groups fea
 
 
 ## Toolkit Relationships
-![Diagram](/images/Screenshot%25202025-06-09%2520at%252012.15.32%25E2%2580%25AFPM.png)
+![Diagram](/akhil_2025/images/Screenshot%25202025-06-09%2520at%252012.15.32%25E2%2580%25AFPM.png)
