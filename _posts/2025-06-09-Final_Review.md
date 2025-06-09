@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AP Test Prep Review
+title: OpenCodingSociety Project Review
 courses: {'csa': {'week': 35}}
 type: collab
 categories: ['AP CSA']
