@@ -8,6 +8,39 @@ echo "Stopping logging process..."
 ps aux | awk -v log_file=/tmp/jekyll4100.log '$0 ~ "tail -f " log_file { print $2 }' | xargs kill >/dev/null 2>&1 || true
 # removes log
 rm -f /tmp/jekyll4100.log
+echo "Converting source _notebooks/data_structures/2025-02-20-fibonaccii_abstract.ipynb to destination _posts/data_structures/2025-02-20-fibonaccii_abstract_IPYNB_2_.md"
+mkdir -p _posts/data_structures
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/data_structures/2025-02-20-fibonaccii_abstract.ipynb"
+echo "Converting source _notebooks/data_structures/2025-03-23-sorting.ipynb to destination _posts/data_structures/2025-03-23-sorting_IPYNB_2_.md"
+mkdir -p _posts/data_structures
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/data_structures/2025-03-23-sorting.ipynb"
+echo "Converting source _notebooks/data_structures/2025-05-23-graph_heuristics.ipynb to destination _posts/data_structures/2025-05-23-graph_heuristics_IPYNB_2_.md"
+mkdir -p _posts/data_structures
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/data_structures/2025-05-23-graph_heuristics.ipynb"
+echo "Converting source _notebooks/data_structures/2025-03-24-mergesort.ipynb to destination _posts/data_structures/2025-03-24-mergesort_IPYNB_2_.md"
+mkdir -p _posts/data_structures
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/data_structures/2025-03-24-mergesort.ipynb"
+echo "Converting source _notebooks/data_structures/2025-04-22-collectables.ipynb to destination _posts/data_structures/2025-04-22-collectables_IPYNB_2_.md"
+mkdir -p _posts/data_structures
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/data_structures/2025-04-22-collectables.ipynb"
+echo "Converting source _notebooks/data_structures/2025-03-23-calculator_enactment.ipynb to destination _posts/data_structures/2025-03-23-calculator_enactment_IPYNB_2_.md"
+mkdir -p _posts/data_structures
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/data_structures/2025-03-23-calculator_enactment.ipynb"
+echo "Converting source _notebooks/Methods/2025-01-07-methods-control-structures-introduction.ipynb to destination _posts/Methods/2025-01-07-methods-control-structures-introduction_IPYNB_2_.md"
+mkdir -p _posts/Methods
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Methods/2025-01-07-methods-control-structures-introduction.ipynb"
+echo "Converting source _notebooks/Methods/2025-07-01-methods-control-structures-homework.ipynb to destination _posts/Methods/2025-07-01-methods-control-structures-homework_IPYNB_2_.md"
+mkdir -p _posts/Methods
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Methods/2025-07-01-methods-control-structures-homework.ipynb"
+echo "Converting source _notebooks/Methods/2025-07-01-methods-control-structures-test.ipynb to destination _posts/Methods/2025-07-01-methods-control-structures-test_IPYNB_2_.md"
+mkdir -p _posts/Methods
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Methods/2025-07-01-methods-control-structures-test.ipynb"
+echo "Converting source _notebooks/Methods/2025-01-07-methods-control-structures-FRQ2023.ipynb to destination _posts/Methods/2025-01-07-methods-control-structures-FRQ2023_IPYNB_2_.md"
+mkdir -p _posts/Methods
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Methods/2025-01-07-methods-control-structures-FRQ2023.ipynb"
+echo "Converting source _notebooks/Methods/2025-01-07-methods-control-structures-quick-review.ipynb to destination _posts/Methods/2025-01-07-methods-control-structures-quick-review_IPYNB_2_.md"
+mkdir -p _posts/Methods
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Methods/2025-01-07-methods-control-structures-quick-review.ipynb"
 echo "Converting source _notebooks/CSA/units_1_to_10/unit_04/2024-10-08-unit_4_work.ipynb to destination _posts/CSA/units_1_to_10/unit_04/2024-10-08-unit_4_work_IPYNB_2_.md"
 mkdir -p _posts/CSA/units_1_to_10/unit_04
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_04/2024-10-08-unit_4_work.ipynb"
@@ -33,6 +66,7 @@ echo "Converting source _notebooks/CSA/units_1_to_10/unit_02/2024-09-16-Unit_2_p
 mkdir -p _posts/CSA/units_1_to_10/unit_02
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_02/2024-09-16-Unit_2_part4.ipynb"
 echo "Converting source _notebooks/CSA/units_1_to_10/unit_02/2024-09-25-Unit_2_work.ipynb to destination _posts/CSA/units_1_to_10/unit_02/2024-09-25-Unit_2_work_IPYNB_2_.md"
+ 
 mkdir -p _posts/CSA/units_1_to_10/unit_02
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_02/2024-09-25-Unit_2_work.ipynb"
 echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-10-01-unit_5_work.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-10-01-unit_5_work_IPYNB_2_.md"
@@ -62,7 +96,6 @@ python -c 'import sys; from scripts.convert_notebooks import convert_single_note
 echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-writing-methods.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-writing-methods_IPYNB_2_.md"
 mkdir -p _posts/CSA/units_1_to_10/unit_05
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-writing-methods.ipynb"
- 
 echo "Converting source _notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-toString.ipynb to destination _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-toString_IPYNB_2_.md"
 mkdir -p _posts/CSA/units_1_to_10/unit_05
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-toString.ipynb"
@@ -112,6 +145,7 @@ python -c 'import sys; from scripts.convert_notebooks import convert_single_note
 echo "Converting source _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Searching&algorithms.ipynb to destination _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Searching&algorithms_IPYNB_2_.md"
 mkdir -p _posts/CSA/units_1_to_10/unit_07
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Searching&algorithms.ipynb"
+ 
 echo "Converting source _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_traversing.ipynb to destination _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_traversing_IPYNB_2_.md"
 mkdir -p _posts/CSA/units_1_to_10/unit_07
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_traversing.ipynb"
@@ -151,7 +185,6 @@ python -c 'import sys; from scripts.convert_notebooks import convert_single_note
 echo "Converting source _notebooks/CSA/units_1_to_10/unit_08/2024-09-23-unit8-hw.ipynb to destination _posts/CSA/units_1_to_10/unit_08/2024-09-23-unit8-hw_IPYNB_2_.md"
 mkdir -p _posts/CSA/units_1_to_10/unit_08
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_08/2024-09-23-unit8-hw.ipynb"
- 
 echo "Converting source _notebooks/CSA/units_1_to_10/unit_08/2024-09-19-Home.ipynb to destination _posts/CSA/units_1_to_10/unit_08/2024-09-19-Home_IPYNB_2_.md"
 mkdir -p _posts/CSA/units_1_to_10/unit_08
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_08/2024-09-19-Home.ipynb"
@@ -164,6 +197,37 @@ python -c 'import sys; from scripts.convert_notebooks import convert_single_note
 echo "Converting source _notebooks/CSA/units_1_to_10/unit_08/2024-09-19-8.1.ipynb to destination _posts/CSA/units_1_to_10/unit_08/2024-09-19-8.1_IPYNB_2_.md"
 mkdir -p _posts/CSA/units_1_to_10/unit_08
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/CSA/units_1_to_10/unit_08/2024-09-19-8.1.ipynb"
+echo "Converting source _notebooks/Array/2024-01-10-strategies.ipynb to destination _posts/Array/2024-01-10-strategies_IPYNB_2_.md"
+mkdir -p _posts/Array
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Array/2024-01-10-strategies.ipynb"
+echo "Converting source _notebooks/Array/2024-01-06-homework.ipynb to destination _posts/Array/2024-01-06-homework_IPYNB_2_.md"
+mkdir -p _posts/Array
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Array/2024-01-06-homework.ipynb"
+echo "Converting source _notebooks/Array/2024-01-06-example-questions.ipynb to destination _posts/Array/2024-01-06-example-questions_IPYNB_2_.md"
+mkdir -p _posts/Array
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Array/2024-01-06-example-questions.ipynb"
+echo "Converting source _notebooks/Recursion/2025-01-14-Recursion_Work.ipynb to destination _posts/Recursion/2025-01-14-Recursion_Work_IPYNB_2_.md"
+mkdir -p _posts/Recursion
+ 
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Recursion/2025-01-14-Recursion_Work.ipynb"
+echo "Converting source _notebooks/Classes/2025-01-07-classeshw.ipynb to destination _posts/Classes/2025-01-07-classeshw_IPYNB_2_.md"
+mkdir -p _posts/Classes
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Classes/2025-01-07-classeshw.ipynb"
+echo "Converting source _notebooks/Classes/2025-01-07-classesprompt.ipynb to destination _posts/Classes/2025-01-07-classesprompt_IPYNB_2_.md"
+mkdir -p _posts/Classes
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Classes/2025-01-07-classesprompt.ipynb"
+echo "Converting source _notebooks/Classes/2025-01-07-classes.ipynb to destination _posts/Classes/2025-01-07-classes_IPYNB_2_.md"
+mkdir -p _posts/Classes
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Classes/2025-01-07-classes.ipynb"
+echo "Converting source _notebooks/ArraysPt2/2025-01-15-ArraysPartB.ipynb to destination _posts/ArraysPt2/2025-01-15-ArraysPartB_IPYNB_2_.md"
+mkdir -p _posts/ArraysPt2
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/ArraysPt2/2025-01-15-ArraysPartB.ipynb"
+echo "Converting source _notebooks/ArraysPt2/2025-01-13-8.1-arrays.ipynb to destination _posts/ArraysPt2/2025-01-13-8.1-arrays_IPYNB_2_.md"
+mkdir -p _posts/ArraysPt2
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/ArraysPt2/2025-01-13-8.1-arrays.ipynb"
+echo "Converting source _notebooks/ArraysPt2/2025-01-08-6.1-arraysintro.ipynb to destination _posts/ArraysPt2/2025-01-08-6.1-arraysintro_IPYNB_2_.md"
+mkdir -p _posts/ArraysPt2
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/ArraysPt2/2025-01-08-6.1-arraysintro.ipynb"
 echo "Converting source _notebooks/Foundation/2024-09-04-emoji_hacks.ipynb to destination _posts/Foundation/2024-09-04-emoji_hacks_IPYNB_2_.md"
 mkdir -p _posts/Foundation
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-09-04-emoji_hacks.ipynb"
@@ -176,6 +240,21 @@ python -c 'import sys; from scripts.convert_notebooks import convert_single_note
 echo "Converting source _notebooks/Foundation/C-plans/2024-08-26-Javascript_Ideation.ipynb to destination _posts/Foundation/C-plans/2024-08-26-Javascript_Ideation_IPYNB_2_.md"
 mkdir -p _posts/Foundation/C-plans
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/C-plans/2024-08-26-Javascript_Ideation.ipynb"
+echo "Converting source _notebooks/2DArraysPt2/2025-01-23-2dArraysPart2-sample1.ipynb to destination _posts/2DArraysPt2/2025-01-23-2dArraysPart2-sample1_IPYNB_2_.md"
+mkdir -p _posts/2DArraysPt2
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/2DArraysPt2/2025-01-23-2dArraysPart2-sample1.ipynb"
+echo "Converting source _notebooks/2DArraysPt2/2025-01-23-2dArraysPart2-sample2.ipynb to destination _posts/2DArraysPt2/2025-01-23-2dArraysPart2-sample2_IPYNB_2_.md"
+mkdir -p _posts/2DArraysPt2
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/2DArraysPt2/2025-01-23-2dArraysPart2-sample2.ipynb"
+echo "Converting source _notebooks/2DArraysPt2/2025-01-23-2dArraysPart2-hw.ipynb to destination _posts/2DArraysPt2/2025-01-23-2dArraysPart2-hw_IPYNB_2_.md"
+mkdir -p _posts/2DArraysPt2
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/2DArraysPt2/2025-01-23-2dArraysPart2-hw.ipynb"
+echo "Converting source _notebooks/2DArraysPt2/2025-01-23-2dArraysPart2-refresher.ipynb to destination _posts/2DArraysPt2/2025-01-23-2dArraysPart2-refresher_IPYNB_2_.md"
+mkdir -p _posts/2DArraysPt2
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/2DArraysPt2/2025-01-23-2dArraysPart2-refresher.ipynb"
+echo "Converting source _notebooks/csa_practice.ipynb to destination _posts/csa_practice_IPYNB_2_.md"
+mkdir -p _posts
+python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/csa_practice.ipynb"
 echo "Starting server..."
 nohup bundle exec jekyll serve -H 127.0.0.1 -P 4100 > /tmp/jekyll4100.log 2>&1 & \
 		PID=$!; \

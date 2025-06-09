@@ -7,8 +7,10 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
  
+make: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Wed Aug 21 12:52:36 2024
+
+# Make data base, printed on Mon Jun  9 11:50:29 2025
 
 # Variables
 
@@ -23,13 +25,13 @@ VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # makefile (from `Makefile', line 13)
-NOTEBOOK_FILES := _notebooks/Foundation/A-pair_programming/2023-08-17-pair_habits.ipynb _notebooks/Foundation/A-pair_programming/2023-08-16-pair_showcase.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb _notebooks/Foundation/2024-08-21-sprint1_plan.ipynb
+NOTEBOOK_FILES := _notebooks/data_structures/2025-02-20-fibonaccii_abstract.ipynb _notebooks/data_structures/2025-03-23-sorting.ipynb _notebooks/data_structures/2025-05-23-graph_heuristics.ipynb _notebooks/data_structures/2025-03-24-mergesort.ipynb _notebooks/data_structures/2025-04-22-collectables.ipynb _notebooks/data_structures/2025-03-23-calculator_enactment.ipynb _notebooks/Methods/2025-01-07-methods-control-structures-introduction.ipynb _notebooks/Methods/2025-07-01-methods-control-structures-homework.ipynb _notebooks/Methods/2025-07-01-methods-control-structures-test.ipynb _notebooks/Methods/2025-01-07-methods-control-structures-FRQ2023.ipynb _notebooks/Methods/2025-01-07-methods-control-structures-quick-review.ipynb _notebooks/CSA/units_1_to_10/unit_04/2024-10-08-unit_4_work.ipynb _notebooks/CSA/units_1_to_10/unit_03/2024-10-08-unit_3_work.ipynb _notebooks/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part2.ipynb _notebooks/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_HW.ipynb _notebooks/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part1.ipynb _notebooks/CSA/units_1_to_10/unit_02/2024-09-13-Unit_2_part3.ipynb _notebooks/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_home.ipynb _notebooks/CSA/units_1_to_10/unit_02/2024-09-16-Unit_2_part4.ipynb _notebooks/CSA/units_1_to_10/unit_02/2024-09-25-Unit_2_work.ipynb _notebooks/CSA/units_1_to_10/unit_05/2024-10-01-unit_5_work.ipynb _notebooks/CSA/units_1_to_10/unit_05/2024-09-23-unit_5-homework.ipynb _notebooks/CSA/units_1_to_10/unit_05/2024-09-15-unit_5-constructors.ipynb _notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-mutator-methods.ipynb _notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-accessor.ipynb _notebooks/CSA/units_1_to_10/unit_05/2024-09-18-unit_5-static-variables-and-methods.ipynb _notebooks/CSA/units_1_to_10/unit_05/2024-09-19-unit_5-this-keyword.ipynb _notebooks/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-scope_access_hacks.ipynb _notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-writing-methods.ipynb _notebooks/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-toString.ipynb _notebooks/CSA/units_1_to_10/unit_05/2024-09-16-unit_5-classanatomy.ipynb _notebooks/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-home.ipynb _notebooks/CSA/units_1_to_10/unit_09/2023-09-12-U9-6.ipynb _notebooks/CSA/units_1_to_10/unit_09/2024-09-12-U9-0-Inheritance.ipynb _notebooks/CSA/units_1_to_10/unit_09/2023-09-12-U9-7.ipynb _notebooks/CSA/units_1_to_10/unit_09/2024-09-12-U9-1.ipynb _notebooks/CSA/units_1_to_10/unit_09/2024-09-12-U9-3.ipynb _notebooks/CSA/units_1_to_10/unit_09/2023-09-21-U9-hacks.ipynb _notebooks/CSA/units_1_to_10/unit_09/2024-09-18-U9-5.ipynb _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_homePage.ipynb _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_hacks.ipynb _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Sorting.ipynb _notebooks/CSA/units_1_to_10/unit_07/2024-10-02-Unit_7_work.ipynb _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamteachPeriod3.ipynb _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Searching&algorithms.ipynb _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_traversing.ipynb _notebooks/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Ethics.ipynb _notebooks/CSA/units_1_to_10/unit_06/2024-06-24-unit_6.ipynb _notebooks/CSA/units_1_to_10/unit_06/enhanced_for_loops.ipynb _notebooks/CSA/units_1_to_10/2024-10-08-calendar.ipynb _notebooks/CSA/units_1_to_10/unit_01/2024-06-23-unit_1._intro.ipynb _notebooks/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_stack_heap.ipynb _notebooks/CSA/units_1_to_10/unit_01/2024-07-01-unit_1_examples.ipynb _notebooks/CSA/units_1_to_10/unit_01/2024-07-13-unit_1_quiz.ipynb _notebooks/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_primatives.ipynb _notebooks/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_reference.ipynb _notebooks/CSA/units_1_to_10/unit_08/2024-09-23-Unit8-ImageConverter.ipynb _notebooks/CSA/units_1_to_10/unit_08/2024-09-23-unit8-hw.ipynb _notebooks/CSA/units_1_to_10/unit_08/2024-09-19-Home.ipynb _notebooks/CSA/units_1_to_10/unit_08/2024-09-27-unit_8_work.ipynb _notebooks/CSA/units_1_to_10/unit_08/2024-09-18-8.2.ipynb _notebooks/CSA/units_1_to_10/unit_08/2024-09-19-8.1.ipynb _notebooks/Array/2024-01-10-strategies.ipynb _notebooks/Array/2024-01-06-homework.ipynb _notebooks/Array/2024-01-06-example-questions.ipynb _notebooks/Recursion/2025-01-14-Recursion_Work.ipynb _notebooks/Classes/2025-01-07-classeshw.ipynb _notebooks/Classes/2025-01-07-classesprompt.ipynb _notebooks/Classes/2025-01-07-classes.ipynb _notebooks/ArraysPt2/2025-01-15-ArraysPartB.ipynb _notebooks/ArraysPt2/2025-01-13-8.1-arrays.ipynb _notebooks/ArraysPt2/2025-01-08-6.1-arraysintro.ipynb _notebooks/Foundation/2024-09-04-emoji_hacks.ipynb _notebooks/Foundation/2024-09-06-html_hacks.ipynb _notebooks/Foundation/C-plans/2024-08-27-index_blog.ipynb _notebooks/Foundation/C-plans/2024-08-26-Javascript_Ideation.ipynb _notebooks/2DArraysPt2/2025-01-23-2dArraysPart2-sample1.ipynb _notebooks/2DArraysPt2/2025-01-23-2dArraysPart2-sample2.ipynb _notebooks/2DArraysPt2/2025-01-23-2dArraysPart2-hw.ipynb _notebooks/2DArraysPt2/2025-01-23-2dArraysPart2-refresher.ipynb _notebooks/csa_practice.ipynb
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /Users/Akhil/vscode/student_2025
+CURDIR := /Users/Akhil/vscode/akhil_2025
 # makefile (from `Makefile', line 6)
 SHELL = /bin/bash -c
 # environment
@@ -45,13 +47,15 @@ INFOPATH = /opt/homebrew/share/info:
 # environment
 VSCODE_CWD = /
 # environment
-PATH = /Users/Akhil/gems/bin:/Users/Akhil/gems/bin:/Users/Akhil/gems/bin:/Users/Akhil/gems/bin:/Users/Akhil/gems/bin:/Users/Akhil/.rbenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/Akhil/.spicetify
+PATH = /Users/Akhil/gems/bin:/Users/Akhil/gems/bin:/Users/Akhil/gems/bin:/Users/Akhil/gems/bin:/Users/Akhil/gems/bin:/Users/Akhil/.rbenv/shims:/Library/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/Akhil/.spicetify
 # makefile (from `Makefile', line 4)
 LOG_FILE = /tmp/jekyll$(PORT).log
 # makefile (from `Makefile', line 3)
-REPO_NAME = student_2025
+REPO_NAME = akhil_2025
 # makefile (from `Makefile', line 16)
 DESTINATION_DIRECTORY = _posts
+# environment
+LaunchInstanceID = 39C9BE9A-CB17-4B63-8D78-F2A9AEB9A094
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # makefile (from `Makefile', line 2)
@@ -59,13 +63,14 @@ PORT = 4100
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.HEhP9ndggy/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.2cA81Id4w5/Listeners
 # automatic
 %F = $(notdir $%)
 # makefile (from `Makefile', line 17)
-MARKDOWN_FILES := _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md
+ 
+MARKDOWN_FILES := _posts/data_structures/2025-02-20-fibonaccii_abstract_IPYNB_2_.md _posts/data_structures/2025-03-23-sorting_IPYNB_2_.md _posts/data_structures/2025-05-23-graph_heuristics_IPYNB_2_.md _posts/data_structures/2025-03-24-mergesort_IPYNB_2_.md _posts/data_structures/2025-04-22-collectables_IPYNB_2_.md _posts/data_structures/2025-03-23-calculator_enactment_IPYNB_2_.md _posts/Methods/2025-01-07-methods-control-structures-introduction_IPYNB_2_.md _posts/Methods/2025-07-01-methods-control-structures-homework_IPYNB_2_.md _posts/Methods/2025-07-01-methods-control-structures-test_IPYNB_2_.md _posts/Methods/2025-01-07-methods-control-structures-FRQ2023_IPYNB_2_.md _posts/Methods/2025-01-07-methods-control-structures-quick-review_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_04/2024-10-08-unit_4_work_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_03/2024-10-08-unit_3_work_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part2_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_HW_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part1_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-13-Unit_2_part3_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_home_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-16-Unit_2_part4_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-25-Unit_2_work_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-10-01-unit_5_work_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-23-unit_5-homework_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-15-unit_5-constructors_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-mutator-methods_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-accessor_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-18-unit_5-static-variables-and-methods_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-19-unit_5-this-keyword_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-scope_access_hacks_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-writing-methods_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-toString_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-16-unit_5-classanatomy_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-home_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2023-09-12-U9-6_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2024-09-12-U9-0-Inheritance_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2023-09-12-U9-7_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2024-09-12-U9-1_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2024-09-12-U9-3_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2023-09-21-U9-hacks_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2024-09-18-U9-5_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_homePage_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_hacks_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Sorting_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-10-02-Unit_7_work_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamteachPeriod3_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Searching&algorithms_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_traversing_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Ethics_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_06/2024-06-24-unit_6_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_06/enhanced_for_loops_IPYNB_2_.md _posts/CSA/units_1_to_10/2024-10-08-calendar_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_01/2024-06-23-unit_1._intro_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_stack_heap_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_01/2024-07-01-unit_1_examples_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_01/2024-07-13-unit_1_quiz_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_primatives_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_reference_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_08/2024-09-23-Unit8-ImageConverter_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_08/2024-09-23-unit8-hw_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_08/2024-09-19-Home_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_08/2024-09-27-unit_8_work_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_08/2024-09-18-8.2_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_08/2024-09-19-8.1_IPYNB_2_.md _posts/Array/2024-01-10-strategies_IPYNB_2_.md _posts/Array/2024-01-06-homework_IPYNB_2_.md _posts/Array/2024-01-06-example-questions_IPYNB_2_.md _posts/Recursion/2025-01-14-Recursion_Work_IPYNB_2_.md _posts/Classes/2025-01-07-classeshw_IPYNB_2_.md _posts/Classes/2025-01-07-classesprompt_IPYNB_2_.md _posts/Classes/2025-01-07-classes_IPYNB_2_.md _posts/ArraysPt2/2025-01-15-ArraysPartB_IPYNB_2_.md _posts/ArraysPt2/2025-01-13-8.1-arrays_IPYNB_2_.md _posts/ArraysPt2/2025-01-08-6.1-arraysintro_IPYNB_2_.md _posts/Foundation/2024-09-04-emoji_hacks_IPYNB_2_.md _posts/Foundation/2024-09-06-html_hacks_IPYNB_2_.md _posts/Foundation/C-plans/2024-08-27-index_blog_IPYNB_2_.md _posts/Foundation/C-plans/2024-08-26-Javascript_Ideation_IPYNB_2_.md _posts/2DArraysPt2/2025-01-23-2dArraysPart2-sample1_IPYNB_2_.md _posts/2DArraysPt2/2025-01-23-2dArraysPart2-sample2_IPYNB_2_.md _posts/2DArraysPt2/2025-01-23-2dArraysPart2-hw_IPYNB_2_.md _posts/2DArraysPt2/2025-01-23-2dArraysPart2-refresher_IPYNB_2_.md _posts/csa_practice_IPYNB_2_.md
 # environment
-PWD = /Users/Akhil/vscode/student_2025
+PWD = /Users/Akhil/vscode/akhil_2025
 # environment
 HOMEBREW_CELLAR = /opt/homebrew/Cellar
 # environment
@@ -73,7 +78,7 @@ GEM_HOME = /Users/Akhil/gems
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man::
+MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -85,7 +90,7 @@ VSCODE_CODE_CACHE_PATH = /Users/Akhil/Library/Application Support/Code/CachedDat
 # environment
 LOGNAME = Akhil
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -146,6 +151,8 @@ RBENV_SHELL = zsh
 <F = $(notdir $<)
 # environment
 LC_ALL = C
+# environment
+SECURITYSESSIONID = 186c2
 # automatic
 ^F = $(notdir $^)
 # default
@@ -157,9 +164,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 4762
+VSCODE_PID = 1383
 # variable set hash-table stats:
-# Load=73/1024=7%, Rehash=0, Collisions=10/106=9%
+# Load=75/1024=7%, Rehash=0, Collisions=10/108=9%
 
 # Pattern-specific Variable Values
 
@@ -167,14 +174,15 @@ VSCODE_PID = 4762
 
 # Directories
 
-# . (device 16777231, inode 13711009): 24 files, no impossibilities.
-# _notebooks (device 16777231, inode 13711132): No files, no impossibilities so far.
+# . (device 16777230, inode 13711009): 28 files, no impossibilities.
+# _notebooks (device 16777230, inode 13711132): No files, no impossibilities so far.
 
-# 24 files, no impossibilities in 2 directories.
+# 28 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
 _posts/%_IPYNB_2_.md: _notebooks/%.ipynb
+ 
 #  commands to execute (from `Makefile', line 68):
 	@echo "Converting source $< to destination $@"
 	@mkdir -p $(@D)
@@ -202,6 +210,66 @@ stop:
 	
 
 # Not a target:
+_posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamteachPeriod3_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/csa_practice_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/data_structures/2025-03-23-calculator_enactment_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_08/2024-09-19-8.1_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/ArraysPt2/2025-01-15-ArraysPartB_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_06/2024-06-24-unit_6_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_05/2024-09-15-unit_5-constructors_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_hacks_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Classes/2025-01-07-classes_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/data_structures/2025-05-23-graph_heuristics_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 all:
 #  Command-line target.
 #  Implicit rule search has been done.
@@ -211,7 +279,7 @@ all:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
-_posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md:
+_posts/data_structures/2025-03-23-sorting_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -222,28 +290,79 @@ _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md:
 #  File has not been updated.
 
 # Not a target:
-_posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md:
+_posts/CSA/units_1_to_10/unit_01/2024-07-13-unit_1_quiz_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-_posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md:
+_posts/Foundation/C-plans/2024-08-27-index_blog_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-_posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md:
+_posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Ethics_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
- 
-make: *** No rule to make target `all'.  Stop.
+_posts/CSA/units_1_to_10/unit_02/2024-09-16-Unit_2_part4_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
+# Not a target:
+_posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_home_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Methods/2025-07-01-methods-control-structures-homework_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_05/2024-10-01-unit_5_work_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_stack_heap_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Sorting_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Foundation/2024-09-06-html_hacks_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 .SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/2DArraysPt2/2025-01-23-2dArraysPart2-refresher_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/2024-10-08-calendar_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -251,11 +370,23 @@ make: *** No rule to make target `all'.  Stop.
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2024-08-21 12:52:27
+#  Last modified 2024-08-30 12:00:20
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_homePage_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/ArraysPt2/2025-01-08-6.1-arraysintro_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 server: stop convert
 #  Phony target (prerequisite of .PHONY).
@@ -271,7 +402,74 @@ server: stop convert
 	
 
 # Not a target:
-_posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md:
+_posts/CSA/units_1_to_10/unit_01/2024-07-01-unit_1_examples_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Array/2024-01-06-homework_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/2DArraysPt2/2025-01-23-2dArraysPart2-hw_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/2DArraysPt2/2025-01-23-2dArraysPart2-sample1_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/data_structures/2025-02-20-fibonaccii_abstract_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Methods/2025-01-07-methods-control-structures-quick-review_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Methods/2025-07-01-methods-control-structures-test_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+_posts/CSA/units_1_to_10/unit_08/2024-09-19-Home_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Foundation/C-plans/2024-08-26-Javascript_Ideation_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_09/2024-09-12-U9-1_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Methods/2025-01-07-methods-control-structures-introduction_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/data_structures/2025-03-24-mergesort_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -314,7 +512,79 @@ default: server
 	
 
 # Not a target:
+_posts/CSA/units_1_to_10/unit_05/2024-09-16-unit_5-classanatomy_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/ArraysPt2/2025-01-13-8.1-arrays_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Classes/2025-01-07-classesprompt_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/2DArraysPt2/2025-01-23-2dArraysPart2-sample2_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Foundation/2024-09-04-emoji_hacks_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_09/2023-09-12-U9-7_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_02/2024-09-13-Unit_2_part3_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 .DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Methods/2025-01-07-methods-control-structures-FRQ2023_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_05/2024-09-18-unit_5-static-variables-and-methods_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_08/2024-09-27-unit_8_work_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_09/2024-09-12-U9-3_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-home_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -338,27 +608,136 @@ clean: stop
 	
 
 # Not a target:
-_posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md:
+_posts/CSA/units_1_to_10/unit_07/2024-10-02-Unit_7_work_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-_posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md:
+_posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-accessor_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-_posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md:
+_posts/CSA/units_1_to_10/unit_01/2024-06-23-unit_1._intro_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-convert: _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md
+# Not a target:
+_posts/Array/2024-01-06-example-questions_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_primatives_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part1_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_09/2023-09-12-U9-6_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_03/2024-10-08-unit_3_work_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_reference_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_HW_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Searching&algorithms_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-mutator-methods_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_09/2024-09-18-U9-5_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_02/2024-09-25-Unit_2_work_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+_posts/data_structures/2025-04-22-collectables_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_09/2024-09-12-U9-0-Inheritance_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-writing-methods_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Classes/2025-01-07-classeshw_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+convert: _posts/data_structures/2025-02-20-fibonaccii_abstract_IPYNB_2_.md _posts/data_structures/2025-03-23-sorting_IPYNB_2_.md _posts/data_structures/2025-05-23-graph_heuristics_IPYNB_2_.md _posts/data_structures/2025-03-24-mergesort_IPYNB_2_.md _posts/data_structures/2025-04-22-collectables_IPYNB_2_.md _posts/data_structures/2025-03-23-calculator_enactment_IPYNB_2_.md _posts/Methods/2025-01-07-methods-control-structures-introduction_IPYNB_2_.md _posts/Methods/2025-07-01-methods-control-structures-homework_IPYNB_2_.md _posts/Methods/2025-07-01-methods-control-structures-test_IPYNB_2_.md _posts/Methods/2025-01-07-methods-control-structures-FRQ2023_IPYNB_2_.md _posts/Methods/2025-01-07-methods-control-structures-quick-review_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_04/2024-10-08-unit_4_work_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_03/2024-10-08-unit_3_work_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part2_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_HW_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part1_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-13-Unit_2_part3_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_home_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-16-Unit_2_part4_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_02/2024-09-25-Unit_2_work_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-10-01-unit_5_work_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-23-unit_5-homework_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-15-unit_5-constructors_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-mutator-methods_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-accessor_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-18-unit_5-static-variables-and-methods_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-19-unit_5-this-keyword_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-scope_access_hacks_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-writing-methods_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-toString_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-16-unit_5-classanatomy_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-home_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2023-09-12-U9-6_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2024-09-12-U9-0-Inheritance_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2023-09-12-U9-7_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2024-09-12-U9-1_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2024-09-12-U9-3_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2023-09-21-U9-hacks_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_09/2024-09-18-U9-5_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_homePage_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_hacks_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Sorting_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-10-02-Unit_7_work_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamteachPeriod3_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Searching&algorithms_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_traversing_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_Ethics_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_06/2024-06-24-unit_6_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_06/enhanced_for_loops_IPYNB_2_.md _posts/CSA/units_1_to_10/2024-10-08-calendar_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_01/2024-06-23-unit_1._intro_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_stack_heap_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_01/2024-07-01-unit_1_examples_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_01/2024-07-13-unit_1_quiz_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_primatives_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_01/2024-06-24-unit_1_reference_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_08/2024-09-23-Unit8-ImageConverter_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_08/2024-09-23-unit8-hw_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_08/2024-09-19-Home_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_08/2024-09-27-unit_8_work_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_08/2024-09-18-8.2_IPYNB_2_.md _posts/CSA/units_1_to_10/unit_08/2024-09-19-8.1_IPYNB_2_.md _posts/Array/2024-01-10-strategies_IPYNB_2_.md _posts/Array/2024-01-06-homework_IPYNB_2_.md _posts/Array/2024-01-06-example-questions_IPYNB_2_.md _posts/Recursion/2025-01-14-Recursion_Work_IPYNB_2_.md _posts/Classes/2025-01-07-classeshw_IPYNB_2_.md _posts/Classes/2025-01-07-classesprompt_IPYNB_2_.md _posts/Classes/2025-01-07-classes_IPYNB_2_.md _posts/ArraysPt2/2025-01-15-ArraysPartB_IPYNB_2_.md _posts/ArraysPt2/2025-01-13-8.1-arrays_IPYNB_2_.md _posts/ArraysPt2/2025-01-08-6.1-arraysintro_IPYNB_2_.md _posts/Foundation/2024-09-04-emoji_hacks_IPYNB_2_.md _posts/Foundation/2024-09-06-html_hacks_IPYNB_2_.md _posts/Foundation/C-plans/2024-08-27-index_blog_IPYNB_2_.md _posts/Foundation/C-plans/2024-08-26-Javascript_Ideation_IPYNB_2_.md _posts/2DArraysPt2/2025-01-23-2dArraysPart2-sample1_IPYNB_2_.md _posts/2DArraysPt2/2025-01-23-2dArraysPart2-sample2_IPYNB_2_.md _posts/2DArraysPt2/2025-01-23-2dArraysPart2-hw_IPYNB_2_.md _posts/2DArraysPt2/2025-01-23-2dArraysPart2-refresher_IPYNB_2_.md _posts/csa_practice_IPYNB_2_.md
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_04/2024-10-08-unit_4_work_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Array/2024-01-10-strategies_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_08/2024-09-23-Unit8-ImageConverter_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
 issues:
@@ -368,13 +747,74 @@ issues:
 #  File has not been updated.
 
 # Not a target:
-_posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md:
+_posts/CSA/units_1_to_10/unit_08/2024-09-18-8.2_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_05/2024-09-22-unit_5-scope_access_hacks_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_05/2024-09-23-unit_5-homework_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_05/2024-09-17-unit_5-toString_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Recursion/2025-01-14-Recursion_Work_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_02/2024-09-12-Unit_2_part2_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+_posts/CSA/units_1_to_10/unit_05/2024-09-19-unit_5-this-keyword_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_06/enhanced_for_loops_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_09/2023-09-21-U9-hacks_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_07/2024-09-10-Unit7TeamTeach_traversing_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/CSA/units_1_to_10/unit_08/2024-09-23-unit8-hw_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=20/1024=2%, Rehash=0, Collisions=0/51=0%
+# Load=92/1024=9%, Rehash=0, Collisions=8/195=4%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -386,6 +826,6 @@ _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Aug 21 12:52:36 2024
+# Finished Make data base on Mon Jun  9 11:50:29 2025
 
  
